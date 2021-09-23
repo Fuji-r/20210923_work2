@@ -2,14 +2,18 @@
 
 .container {
     display: flex;
+
     justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .item {
     width: 300px;
     height: 300px;
     background-color: #f00;
-    margin: 30px 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
     text-align: center;
     line-height: 300px;
     font-size: 30px;
@@ -20,6 +24,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .item2 {
@@ -31,5 +37,5 @@
     line-height: 300px;
     font-size: 30px;
     color: #ffff;
-    margin: 30px 30px;
+    margin-bottom: 15px;
 }
